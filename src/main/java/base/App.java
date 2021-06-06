@@ -25,7 +25,7 @@ public class App {
     }
 
     public String createOutputString(String noun, String verb, String adjective, String adverb) {
-        return "Do you" + verb + " your " + adjective + noun + adverb + "? That's hilarious!";
+        return "Do you " + verb + " your " + adjective + " " + noun + " " + adverb + "? That's hilarious!";
     }
 
     public String getAdverb() {

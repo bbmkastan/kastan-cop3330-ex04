@@ -14,5 +14,8 @@ class AppTest {
         String adverb = "quickly";
 
         String expectedSentence = "Do you walk your blue dog quickly? That's hilarious!";
+        String actualSentence = myApp.createOutputString(noun, verb, adjective, adverb);
+
+        assertEquals(expectedSentence, actualSentence);
     }
 }
